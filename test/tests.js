@@ -10,7 +10,7 @@ var assert = require("assert"),
 
 describe('xlsx', function () {
 
-	var sourcefile = path.resolve('./test.xlsx');
+	var sourcefile = path.join(__dirname,'test.xlsx');
 
 	describe('extract', function () {
 		it('should read sheet name', function (done) {
@@ -117,7 +117,7 @@ describe('xlsx', function () {
 				null,
 				null,
 				'aha',
-				1296428400000,
+				1296450000000,
 				'00002222',
 				5.94202898550725,
 				5.94,
