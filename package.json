@@ -1,7 +1,7 @@
 {
-  "name": "xlsx-extract",
-  "description": "super-simple async XLSX reader with low memory footprint",
-  "homepage": "https://github.com/ffalt/xlsx-extract",
+  "name": "xlsx-extract-sax",
+  "description": "super-simple async XLSX reader with low memory footprint (use sax rather than node-expat for better windows compat)",
+  "homepage": "https://github.com/indranath/xlsx-extract/tree/sax-parser",
   "keywords": [
     "xlsx",
     "tsv",
@@ -9,27 +9,27 @@
     "excel",
     "spreadsheet"
   ],
-  "bugs": {
-    "url": "https://github.com/ffalt/xlsx-extract/issues"
-  },
   "version": "0.0.7",
   "author": {
     "name": "ffalt"
   },
-    "contributors": [{
-      "name": "Michael Pelikan",
-      "url": "https://github.com/mpelikan"
-    }],
+  "contributors": [{
+    "name": "Michael Pelikan",
+    "url": "https://github.com/mpelikan"
+  },{
+    "name": "Indranath Chunder",
+    "url": "https://github.com/indranath"
+  }],
   "bin": "./bin/xlsxe.js",
   "main": "./lib",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ffalt/xlsx-extract"
+    "url": "https://github.com/indranath/xlsx-extract/tree/sax-parser"
   },
-	"bugs": {
-		"url": "https://github.com/ffalt/xlsx-extract/issues"
-	},
+  "bugs": {
+    "url": "https://github.com/indranath/xlsx-extract/issues"
+  },
   "dependencies": {
     "unzip": ">= 0.1.9",
     "commander": ">= 2.1.0",
